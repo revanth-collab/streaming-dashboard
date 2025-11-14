@@ -1,6 +1,6 @@
 import Link from "next/link"
 import Image from "next/image"
-import { Movie } from "@/.next/types/movie"
+import { Movie } from "@/types/movie"
 
 export default function SearchResults({ movies }: { movies: Movie[] }) {
     return (

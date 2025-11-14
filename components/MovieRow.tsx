@@ -2,7 +2,7 @@
 
 import Image from 'next/image'
 import Link from 'next/link'
-import { Movie } from '@/.next/types/movie'
+import { Movie } from "@/types/movie"
 import { useRef } from 'react'
 
 const BASE = process.env.TMDB_IMG_BASE || 'https://image.tmdb.org/t/p'

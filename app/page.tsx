@@ -3,7 +3,7 @@ import { getPopularMovies, getPopularMoviesPage, getGenres, getMovieVideos } fro
 import GenreCarousel from "@/components/GenreCarousel"
 import HeroBanner from "@/components/HeroBanner"
 import MovieRow from "@/components/MovieRow"
-import { Movie } from "@/.next/types/movie"
+import { Movie } from "@/types/movie"
 import HeroCarousel from "@/components/HeroCarousel"
 
 

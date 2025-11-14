@@ -1,6 +1,6 @@
 import { getMoviesByGenre, getGenres } from "@/lib/tmdb"
 import MovieRow from "@/components/MovieRow"
-import { Genre } from "@/.next/types/genre"
+import { Genre } from "@/types/genre"
 
 export default async function GenrePage({ params }: { params: Promise<{ id: string }> }) {
     const { id } = await params

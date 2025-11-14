@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react"
 import Image from "next/image"
-import { Movie } from "@/.next/types/movie"
+import { Movie } from "@/types/movie"
 import { FaPlay } from "react-icons/fa"
 import { FiInfo } from "react-icons/fi"
 import TrailerModal from "@/components/TrailerModal"

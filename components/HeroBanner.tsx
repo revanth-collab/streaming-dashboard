@@ -1,5 +1,5 @@
 import Image from "next/image"
-import { Movie } from "@/.next/types/movie"
+import { Movie } from "@/types/movie"
 
 export default function HeroBanner({ movie }: { movie: Movie }) {
     return (

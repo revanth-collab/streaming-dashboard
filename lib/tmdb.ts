@@ -1,4 +1,5 @@
-import { Movie } from "@/.next/types/movie"
+import { Movie } from "@/types/movie"
+import { GenreResponse } from "@/types/genre"
 
 const API_URL = process.env.TMDB_API_URL!
 const API_KEY = process.env.TMDB_API_KEY!
@@ -58,8 +59,6 @@ export async function getPopularShows() {
     if (!res.ok) throw new Error("Failed to fetch shows")
     return res.json()
 }
-
-import { GenreResponse } from "@/.next/types/genre"
 
 export async function getGenres(): Promise<GenreResponse> {
     const res = await fetch(`${API_URL}/genre/movie/list?api_key=${API_KEY}`)

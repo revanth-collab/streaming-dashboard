@@ -1,6 +1,6 @@
 "use client"
 
-import { Movie } from "@/.next/types/movie"
+import { Movie } from "@/types/movie"
 import Image from "next/image"
 import Link from "next/link"
 import { useEffect, useRef, useState } from "react"
